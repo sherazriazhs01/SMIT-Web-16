@@ -4,52 +4,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Table Assignment 02</title>
-    <link rel="stylesheet" href="./HTML/Class 08/style.css">
+    <title>Ian's Timetable</title>
+    <style>
+        table,h2 {
+            text-align: center;
+        }
+
+        th {
+            background-color: antiquewhite;
+        }
+    </style>
 </head>
 
 <body>
-    <div>
-        <p>24 Hours Daily Schedule</p>
-    </div>
-    <table border="3px solid black">
+    <h2>Ian's Timetable</h2>
+    <table border="2px solid black">
         <tr>
-            <th colspan="2"></th>
-        </tr>
-        <tr style="background-color: #96f18e;">
-            <th>Time</th>
-            <th>Task</th>
-        </tr>
-        <tr>
-            <td id="First">05:00 am-6.30am</td>
-            <td id="Second">Wake up and eat sehri and do some tilawat,and pray namaz fajar</td>
-        </tr>
-        <tr>
-            <td id="First">06:30 am-08:15am</td>
-            <td id="Second">Reading Quran-e-Pak to until 7 am and get some Sleep</td>
-        </tr>
-        <tr>
-            <td id="First">08:30 am-10:00am</td>
-            <td id="Second">wake up and attend web development class</td>
-        </tr>
-        <tr>
-            <td id="First">10:30 am-02:00pm</td>
-            <td id="Second">Study for my mcat preparation</td>
-        </tr>
-        <tr>
-            <td id="First">02:00 pm-05:30 pm</td>
-            <td id="Second">Pray namaz zuhar and again study and taking some short breaks during the study,then pray namaz Asar</td>
-        </tr>
-        <tr style="border-radius: 5;">
-            <td id="First">6:00 pm-07:00 pm</td>
-            <td id="Second">Go out and meet some friends, web development practise,eat aftari and pray namaz maghrib</td>
-        </tr>
-        <tr>
-            <td id="First">08.00 pm-11:30 pm</td>
-            <td id="Second">Praying namaz isha and taraweeh until and preparation for sleep</td>
+            <th colspan="1"></th>
+            <th colspan="1"></th>
+
+            <th colspan="3">Morning</th>
+            <th>Lunch</th>
+            <th colspan="4">afternoon</th>
+            <th colspan="3">evening</th>
         </tr>
 
+        <tr>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td rowspan="1">9-10am</td>
+            <td>10-11am</td>
+            <td>11-12pm</td>
+            <td>1-2pm</td>
+            <td>2-3pm</td>
+            <td>3-4pm</td>
+            <td>4-5pm</td>
+            <td>5-6pm</td>
+            <td>6-7 pm</td>
+            <td>7-8 pm</td>
+            <td>8-9 pm</td>
+
+        </tr>
+        <tr>
+            <td rowspan="2">Work</td>
+            <td colspan="1">Monday</td>
+            <td colspan="3">Development Meeting</td>
+            <td></td>
+            <td colspan="3">Clients Meeting </td>
+            <td>Commute</td>
+            <td colspan="3">Free</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td colspan="3">In Office</td>
+            <td></td>
+            <td colspan="8">In Office</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Lecture</td>
+            <td>Wednesday</td>
+            <td colspan="3">CSC205</td>
+            <td></td>
+            <td colspan="8">Preparation</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td colspan="3">MAM200</td>
+            <td></td>
+            <td colspan="3">Tutorials for MAM200</td>
+            <td colspan="4">Free</td>
+            
+        </tr>
+        <tr>
+
+            <td>Research</td>
+            <td>Friday</td>
+            <td colspan="3">Research</td>
+            <td></td>
+            <td colspan="8">Research</td>
+        </tr>
     </table>
+
 </body>
 
 </html>
